@@ -1,0 +1,16 @@
+# The maze world in which our agent lives is defined here
+# Lines starting with '#' are ignored when parsing
+# 1: Wall
+# 0: Free
+# S: Start
+# G: Goal
+# T: Trap
+#
+1 1 1 1 1 1 1 1 1 1
+1 0 0 0 0 0 1 0 0 1
+1 0 1 1 1 0 0 0 0 1
+1 0 1 T 1 0 1 0 S 1
+1 0 0 0 0 0 1 0 0 1
+1 0 1 1 1 1 1 1 1 1
+1 0 0 0 0 0 0 0 G 1
+1 1 1 1 1 1 1 1 1 1
